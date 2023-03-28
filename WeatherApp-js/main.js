@@ -109,6 +109,9 @@ function cityBGChange(city, body) {
         case 'Champaign':
             body.style.backgroundImage = "url('champaign.jpg')";
             break;
+        case 'Urbana':
+            body.style.backgroundImage = "url('champaign.jpg')";
+            break;
         case 'London':
             body.style.backgroundImage = "url('london.jpg')";
             break;
