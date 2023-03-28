@@ -61,6 +61,7 @@ function displayResults(weather) {
 
     weatherBGChange(weather, body);    
     cityBGChange(weather, body);
+    searchbox.value = "";
 }
 
 function dateBuilder(d) {
