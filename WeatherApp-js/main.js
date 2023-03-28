@@ -30,6 +30,7 @@ function getResults(query) {
             }
             else {
                 window.confirm("Couldn\'t find that city. Please try again");
+                searchbox.value = "";
             }
         }).then(displayResults);
 }
